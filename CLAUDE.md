@@ -2,7 +2,9 @@
 
 Standing instructions for every Claude session in this project.
 
-**Start of every session:** read [ABOUT-ME.md](ABOUT-ME.md) for Forti's role, working hours, focus time, who to answer first, and how Forti likes answers.
+**Start of every session:** read [ABOUT-ME.md](ABOUT-ME.md) for Forti's role, working hours, focus time, who to answer first, and how Forti likes answers. Then read [MEMORY.md](MEMORY.md) for things Forti asked to remember.
+
+**"Remember":** whenever Forti says "remember", add one short dated line (`YYYY-MM-DD: ...`) to the end of MEMORY.md, then commit and save it to the project.
 
 ## Rule book
 
