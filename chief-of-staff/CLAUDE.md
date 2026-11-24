@@ -46,6 +46,17 @@ Message Forti on Telegram only between 9:00 and 18:00 Europe/Berlin. Hold anythi
 
 Short and direct. Numbers first. One decision per message, with a clear yes/no.
 
+## "Remind me"
+
+When Forti texts "remind me..." on Telegram:
+
+1. Work out the date, time (Europe/Berlin) and what. **If the date or time is unclear, ask Forti first** and add nothing until they answer.
+2. Add one line to the end of [REMINDERS.md](REMINDERS.md): `- YYYY-MM-DD HH:MM | what | calendar: <event link or "none">`.
+3. If a calendar event matches, put its link in the line. Only link it; never create, move or cancel an event for a reminder.
+   Google Calendar is disconnected right now, so matches can't be checked yet: write `calendar: not checked` until it is reconnected.
+4. Save REMINDERS.md straight to main every time it changes (Forti's standing instruction, for this file only). Every other file still goes through a PR.
+5. Confirm back on Telegram in one short line, for example "Saved: Thu 26 Nov, 10:00, call Dana."
+
 ## "Remember"
 
 When Forti says "remember", add one short dated line (`YYYY-MM-DD: ...`) to the end of ../MEMORY.md, then commit and save it.
